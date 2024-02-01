@@ -11,7 +11,7 @@ for Java.
 ``` 
   export JAVA_HOME=...path to installed JDK home directory...
   export DB_HOME=...path to Oracle database home directory...
-  export CLASSPATH=$DB_HOME/lib/xmlparserv2_sans_jaxp_services.jar:$DB_HOME/xdk/jlib/apache-xmlbeans.jar:$DB_HOME/jlib/oxquery.jar:$DB_HOME/jlib/xqjapi.jar:.
+  export CLASSPATH=$ORACLE_HOME/lib/xmlparserv2_sans_jaxp_services.jar:$ORACLE_HOME/xdk/jlib/apache-xmlbeans.jar:$ORACLE_HOME/jlib/oxquery.jar:$ORACLE_HOME/jlib/xqjapi.jar:$ORACLE_HOME/xdk/jlib/jakarta.activation-api.jar:.
 ```
 
 3. Compile the example
